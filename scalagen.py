@@ -138,6 +138,8 @@ print >>open('./build.sbt', 'w+'), build_sbt
 print >>open('./project/build.properties', 'w+'), build_properties
 print >>open('./project/plugins.sbt', 'w+'), ''
 
+call(['git', 'init'])
+
 call(['sbt', 'test'])
 
 print 'Generated project {project_name} for Scala {scala_version} and sbt {sbt_version}.'.format(**params)
