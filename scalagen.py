@@ -11,9 +11,9 @@ parser.add_argument('project_name', help='name of the project')
 
 parser.add_argument('--project-version', metavar = 'project_version', help='project version', default = '1.0')
 
-parser.add_argument('--sbt-version', metavar = 'sbt_version', help='sbt version', default = '0.13.12')
-parser.add_argument('--scala-version', metavar = 'scala_version', help='scala version', default = '2.12.2')
-parser.add_argument('--scalatest-version', metavar = 'scalatest_version', help='scalatest version', default = '3.0.0')
+parser.add_argument('--sbt-version', metavar = 'sbt_version', help='sbt version', default = '1.0.1')
+parser.add_argument('--scala-version', metavar = 'scala_version', help='scala version', default = '2.12.4')
+parser.add_argument('--scalatest-version', metavar = 'scalatest_version', help='scalatest version', default = '3.0.4')
 
 args = parser.parse_args()
 
